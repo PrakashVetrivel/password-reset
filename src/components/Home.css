@@ -1,0 +1,29 @@
+/* Basic styling for the home container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #ffffff; /* Light background color */
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Heading styling */
+  .home-container h1 {
+    font-size: 1.5rem;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000; /* Darker color for the heading */
+  }
+  
+  /* Additional styling for paragraphs if needed */
+  .home-container p {
+    font-size: 1rem;
+    margin: 10px;
+    line-height: 1.5;
+    color: #555; /* Dark gray text color */
+  }
+  
